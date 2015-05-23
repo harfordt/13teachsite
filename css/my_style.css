@@ -1,2 +1,58 @@
-body{padding-top:45px;}
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,900,300,700);
+@import url(http://fonts.googleapis.com/css?family=Cardo);
 
+body{
+    /*padding-top:45px;*/
+    font-family: 'Cardo', serif;
+}
+
+h1,h2,h3,h4, .btn{
+    font-family: 'Raleway', sans-serif;
+    font-weight:400;
+}
+
+.my_jumbo{
+    margin-top:45px;
+    height:100%;
+    background-size:100%;
+    background-color:rgba(0,0,0,0);
+}
+
+.navbar-default{
+    background-color:rgba(255,255,255,0.1);
+    font-family: 'Raleway', sans-serif;
+    font-weight:700;
+    
+}
+
+
+.section1{
+    background-image:url(../images/fb1.jpg); 
+    background-size:cover;
+    height:100vh;
+}
+
+.section2{
+    height:100vh;
+    padding:50px;
+    background-color:white;
+}
+
+.section3{
+    height:100vh;
+    padding:50px;
+    background-color:#fff200;
+}
+
+
+
+
+.panel-yellow{
+    background-color:#fff200;
+    color:rgb(30,30,30);
+}
+
+.black-trans-bg{
+    display:inline-block; 
+    background-color:rgba(0,0,0,0.4);
+}
