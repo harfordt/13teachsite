@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+=======
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,800,900,300,700);
+>>>>>>> origin/master
 @import url(http://fonts.googleapis.com/css?family=Cardo);
 
 body{
@@ -7,7 +11,11 @@ body{
 }
 
 h1,h2,h3,h4, .btn{
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
+=======
+    font-family: 'Raleway', sans-serif;
+>>>>>>> origin/master
     font-weight:400;
 }
 
@@ -20,7 +28,11 @@ h1,h2,h3,h4, .btn{
 
 .navbar-default{
     background-color:rgba(255,255,255,0.1);
+<<<<<<< HEAD
     font-family: 'Montserrat', sans-serif;
+=======
+    font-family: 'Raleway', sans-serif;
+>>>>>>> origin/master
     font-weight:700;
     
 }
