@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-=======
+
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,800,900,300,700);
->>>>>>> origin/master
 @import url(http://fonts.googleapis.com/css?family=Cardo);
 
 body{
@@ -11,11 +8,7 @@ body{
 }
 
 h1,h2,h3,h4, .btn{
-<<<<<<< HEAD
-    font-family: 'Montserrat', sans-serif;
-=======
     font-family: 'Raleway', sans-serif;
->>>>>>> origin/master
     font-weight:400;
 }
 
@@ -28,36 +21,45 @@ h1,h2,h3,h4, .btn{
 
 .navbar-default{
     background-color:rgba(255,255,255,0.1);
-<<<<<<< HEAD
-    font-family: 'Montserrat', sans-serif;
-=======
     font-family: 'Raleway', sans-serif;
->>>>>>> origin/master
     font-weight:700;
     
 }
 
-
+.section1,.section2,.section3{
+	height:100vh;
+	margin:0;
+	padding:0;
+}
 .section1{
     background-image:url(../images/fb1.jpg); 
     background-size:cover;
-    height:100vh;
 }
 
 .section2{
-    height:100vh;
-    padding:50px;
     background-color:white;
 }
 
 .section3{
-    height:100vh;
-    padding:50px;
     background-color:#fff200;
 }
 
 
+.my_section-up , .my_section-body, .my_section-down{
+	width:100%;
+	margin:0;
+}
 
+
+.my_section-body{
+	height:84vh;
+}
+.my_section-up{
+	height:8vh;
+}
+.my_section-down{
+	height:8vh;
+}
 
 .panel-yellow{
     background-color:#fff200;
