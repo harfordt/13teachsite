@@ -12,6 +12,12 @@ h1,h2,h3,h4, .btn{
     font-weight:400;
 }
 
+img{
+	max-width:100%;
+}
+.img-rounded{
+	border-radius:10px;
+}
 .my_jumbo{
     margin-top:45px;
     height:100%;
@@ -53,14 +59,26 @@ h1,h2,h3,h4, .btn{
 
 .my_section-body{
 	height:84vh;
+	color:black;
 }
 .my_section-up{
 	height:8vh;
+	text-align:center;
+	padding-top:10px;
 }
 .my_section-down{
 	height:8vh;
+	text-align:center;
+	padding-top:10px;
 }
 
+.my_pad{
+	padding:1em;
+}
+
+.panel-trans{
+	background-color:rgba(0,0,0,0);
+}
 .panel-yellow{
     background-color:#fff200;
     color:rgb(30,30,30);
